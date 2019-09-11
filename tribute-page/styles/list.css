@@ -1,0 +1,11 @@
+.list{
+    width: 500px;
+    text-align: left;
+    margin: 0 auto;
+}
+.list ul{
+    padding: 0;
+}
+.list li{
+    margin: 15px;
+}
