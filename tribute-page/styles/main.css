@@ -1,0 +1,17 @@
+@import "./header.css";
+@import "./imgblock.css";
+@import "./list.css";
+@import "./quote.css";
+@import "./footer.css";
+body {
+    padding: 25px 5px;
+}
+   
+main {
+    background-color: #d2d2d2;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.main-div{
+    text-align: center;
+}
