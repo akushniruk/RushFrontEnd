@@ -1,0 +1,20 @@
+.input-field > div{
+    margin: 10px;
+}
+.name,
+.email,
+.age {
+    width: 350px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+}
+[type="text"],
+[type="email"],
+[type="number"] {
+    line-height: 23px;
+    padding: 5px;
+    width: 250px;
+    margin-right: 130px;
+}

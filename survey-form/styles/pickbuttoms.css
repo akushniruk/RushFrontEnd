@@ -1,0 +1,25 @@
+.recommend,
+.improved {
+    width: 350px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+.RB-div,
+.CB-div {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.RB-div{
+    margin-right: 330px;
+}
+
+.CB-div{
+    margin-right: 200px;
+}

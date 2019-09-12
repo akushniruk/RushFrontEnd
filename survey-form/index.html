@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link type="text/css" rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <form id="survey-form">
+            <p class="helpFCC">Let us know how we can improve freeCodeCamp</p>
+            <div class="data-area">
+                <div class="input-field">
+                    <div class="name-div flex">
+                        <label class="name" for="name">* Name</label>
+                        <input id="name" type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="email-div flex">
+                        <label class="email" for="email">* Email</label>
+                        <input id="email" type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="age-div flex">
+                        <label class="age" for="age">* Age</label>
+                        <input id="age" type="number" placeholder="Age">
+                    </div>
+                </div>
+                <div class="role-div">
+                    <label class="role">Which option best describes your current role?</label>
+                    <select>
+                        <option disabled>Select an option</option>
+                        <option>Student</option> 
+                        <option>Full Time Job</option>
+                        <option>Full Time Learner</option>
+                        <option>Prefer not to say</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="recommend-div">
+                    <label class="recommend">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    <div class="RB-div">
+                        <label><input type="radio">Definetly</label>
+                        <label><input type="radio">Maybe</label>
+                        <label><input type="radio">Not sure</label>
+                    </div>
+                </div>
+                <div class="most-liked-div">
+                    <label class="most-liked">What do you like most in FCC:</label>
+                    <select>
+                        <option selected disabled>Select an option</option>
+                        <option>Challenges</option>
+                        <option>Projects</option>
+                        <option>Community</option>
+                        <option>Open Source</option>
+                    </select>
+                </div>
+                <div class="improved-div">
+                    <label class="improved">Things that should be improved in the future,<br>
+                        (Check all that apply):</label>
+                    <span class="CB-div">
+                        <label><input type="checkbox">Front-end Projects</label>
+                        <label><input type="checkbox">Back-end Projects</label>
+                        <label><input type="checkbox">Data Visualization</label>
+                        <label><input type="checkbox">Challenges</label>
+                        <label><input type="checkbox">Open Source Community</label>
+                        <label><input type="checkbox">Gitter help rooms</label>
+                        <label><input type="checkbox">Videos</label>
+                        <label><input type="checkbox">City Meetups</label>
+                        <label><input type="checkbox">Wiki</label>
+                        <label><input type="checkbox">Forum</label>
+                        <label><input type="checkbox">Additional Courses<label>
+                    </span>
+                </div>
+                <div class="suggestion-div">
+                    <label class="suggestion">Any Comments or Suggestions?</label>
+                    <div class="tarea">
+                        <textarea rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" form="survey-form" value="Submit">Submit</button>
+        </form>
+    </body>
+</html>

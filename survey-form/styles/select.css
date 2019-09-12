@@ -1,0 +1,20 @@
+.role-div,
+.most-liked-div{
+    width: 880px !important;
+}
+
+.role,
+.most-liked{
+    width: 400px;
+    float: left;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+.role-div > select,
+.most-liked-div > select{
+    height: 35px;
+    padding: 5px;
+    margin-right: 293px;
+}
