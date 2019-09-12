@@ -1,0 +1,37 @@
+menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    display: block;
+    width: 330px;
+    height: 100%;
+    font-style: italic;
+    border-right: 3px solid black;
+}
+
+menu > ul{
+    width: 330px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+menu > ul > a > li {
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+    padding-left: 15px;
+    border-top: 3px solid black;
+}
+
+menu a {
+    color: #000000; 
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header{
+    font-size: 28px;
+}
