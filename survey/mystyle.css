@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+header {
+  text-align: center;
+  font-family: 'Livvic', sans-serif;
+  font-size: 35px;
+}
+body {
+  background-color: #a9d7d1;
+  font-family: 'Livvic', sans-serif;
+}
+.container {
+  background-color: #fff;
+  width: 800px;
+  margin: 20px auto 10px auto;
+  border-radius: 5px;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+.flexcont {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.anq {
+  margin: 0 auto 15px auto;
+}
+
+.first {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 22%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.left {
+  display: flex ;
+  width: 49%;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 10px;
+}
+.right {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 51%;
+}
+label {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.selectors {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 273px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 30px;
+}
+.selectors2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 30px;
+}
+.btns{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.top{
+  margin-top: 0px;
+}
+
+.rad {
+  padding: 0 0 10px 0;
+}
+.pad {
+  padding-right: 13px;
+}
+.tex {
+  width: 220px;
+  height: 55px;
+}
+
+.right2 {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 51%;
+  padding-left: 10px;
+}
+
+.left2 {
+  display: flex ;
+  width: 49%;
+  justify-content: flex-end;
+  text-align: right;
+  padding-left: 5px;
+}
+.btns2{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.last {
+padding-top: 20px;
+}
+button{
+  padding: 15px;
+  color: #fff;
+  border-radius: 5px;
+  border: none ;
+  background-color: #59ACE0;
+}
+.forms {
+  height: 30px;
+}
