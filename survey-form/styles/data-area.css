@@ -1,0 +1,16 @@
+@import 'input-filed.css';
+@import 'select.css';
+@import 'pickbuttoms.css';
+@import 'suggestion.css';
+
+.data-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data-area > div{
+    width: 800px;
+    margin: 10px;
+}

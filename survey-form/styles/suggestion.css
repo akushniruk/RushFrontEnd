@@ -1,0 +1,19 @@
+.suggestion-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.suggestion{
+    width: 350px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+.tarea {
+    width: 250px;
+    padding: 5px;
+    margin-left: 20px;;
+}
