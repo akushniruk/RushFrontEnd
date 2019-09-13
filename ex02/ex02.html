@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Survey Form</h1>
+        <main>
+            Let us know how we can improve freeCodeCamp
+            <div id="box-container">
+                <div class="cont-1">
+                    <div class="box-1">
+
+                        <br> *Name  <br>
+                        <br> *Email <br>
+                        <br> *Age <br>
+
+                    </div>
+                    <div class="box-2">
+
+                        <p> <input type="text" placeholder="Enter your name" required></p>
+                        <p> <input type="email" placeholder="Enter your name" required></p>
+                        <p> <input type="number" placeholder="Enter your age" required></p>
+                    </div>
+                </div>
+                <div class="cont-2">
+                    <div class="box-3">
+                        Which option best describes your current role?
+                    </div>
+                    <div class="box-4"> 
+                        <select>
+                            <option disabled value>Select an option</option>
+                            <option value="1">Student</option>
+                            <option value="2">Full time job</option>
+                            <option value="3">Full time Learner</option>
+                            <option value="4">Prefer not to say</option>
+                            <option value="5">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="cont-3">
+                    <div class="box-5">
+                        * How likely is that you would recommend freeCodeCamp to a friend?
+                    </div>
+                    <div class="box-6">
+                        <input type="radio" name="group1" value="Definitely"> Definitely<br>
+                        <input type="radio" name="group1" value="Maybe" checked> Maybe<br>
+                        <input type="radio" name="group1" value="Not sure"> Not sure
+                    </div>
+                </div>
+                <div class="cont-4">
+                    <div class="box-7">
+                        What do you like most in FCC:
+                    </div>
+                    <div class="box-4">
+                        <select>
+                            <option disabled value>Select an option</option>
+                            <option value="1">Challenges</option>
+                            <option value="2">Projects</option>
+                            <option value="3">Community</option>
+                            <option value="4">Open Sourse</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="cont-3">
+                    <div class="box-5">
+                        Things that should be improved in the future
+                        (Check all that apply):
+                    </div>
+                    <div class="box-6">
+                        <label><input type="checkbox"> Front-end Projects</label><br>
+                        <label><input type="checkbox"> Back-end Projects</label><br>
+                        <label><input type="checkbox"> Data Visualization</label><br>
+                        <label><input type="checkbox"> Challenges</label><br>
+                        <label><input type="checkbox"> Open Source Community</label><br>
+                        <label><input type="checkbox"> Gitter help rooms</label><br>
+                        <label><input type="checkbox"> Videos</label><br>
+                        <label><input type="checkbox"> City Meetups</label><br>
+                        <label><input type="checkbox"> Wiki</label><br>
+                        <label><input type="checkbox"> Forum</label><br>
+                        <label><input type="checkbox"> Additional Courses</label>
+                    </div>
+                </div>
+                <div class="cont-3">
+                    <div class="box-8">
+                        Any Comments or Suggestions?
+                    </div>
+                    <div class="box-9">
+                        <textarea id="comments" class="input-field" name="comment" placeholder="Enter your comment here..."></textarea>
+                    </div>
+                </div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </main>
+    </body>
+</html>
