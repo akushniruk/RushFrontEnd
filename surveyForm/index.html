@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <main>
+            <p id="description" class="description">Let us know how we can improve freeCodeCamp</p>
+            <form id="survey-form" action="/" class="survey-form">
+                <div>
+                    <label id="name-label" for="name">* Name:</label>
+                    <div class="input">
+                        <input id="name" class="field" type="text" placeholder="Enter your name" required>
+                    </div>
+                </div>
+                <div>
+                    <label id="email=label" for="email">* Email:</label>
+                    <div class="input">
+                        <input id="email"  class="field" type="email"  placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div>
+                    <label id="age-label" for="number">* Age:</label>
+                    <div class="input">
+                        <input id="number" class="field" type="number" min="1" max="125" placeholder="Age" required>
+                    </div>
+                </div>
+                <div>
+                    <label>* Which option best describes your current role?</label>
+                    <div class="input select">
+                        <select id="dropdown1" name="role">
+                            <option value="Student">Student</option>
+                            <option value="Full Time Job">Full Time Job</option>
+                            <option value="Full Time Learner">Full Time Learner"</option>
+                            <option value="Prefer not say">Prefer not say</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+                    <div class="input">
+                        <div class="rb"><input  name="decision" type="radio" value="2">Definetaly</div>
+                        <div class="rb"><input name="decision" type="radio" value="1">Maybe</div>
+                        <div class="rb"><input name="decision" type="radio" value="0">Not sure</div>
+                    </div>
+                </div>
+                <div>
+                    <label>What do you like most in FCC:</label>
+                    <div class="input select">
+                        <select id="dropdown2" name="favorite">
+                            <option value="" disabled selected>Select your option</option>
+                            <option value="challenges">Challenges</option>
+                            <option value="projects">Projects</option>
+                            <option value="community">Community</option>
+                            <option value="opensource">Open Source</option>
+                        </select>
+                    </div>
+                </div>
+                <div>
+                    <label>Things that should be improved in the future (Check all that apply):</label>
+                    <div class="input">
+                        <div class="cb"><input type="checkbox" name="improvs" value="front-end">Front-end Projects</div>                   
+                        <div class="cb"><input type="checkbox" name="improvs" value="back-end">Back-end Projects</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="data-vis">Data Visualization</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="challenges">Challenges</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="open-source-community">Open Source Community</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="gitter=helper-rooms">Gitter help rooms</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="videos">Videos</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="city-meetups">City meetups</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="wiki">Wiki</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="forum">Forum</div>
+                        <div class="cb"><input type="checkbox" name="improvs" value="add-courses">Additional Courses</div>
+                    </div>
+                </div>
+                <div>
+                    <label>Any Comments or Suggestions?</label>
+                    <textarea name="comment" class="input" placeholder="Enter your comment here"></textarea><br>
+                </div>
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+        </main>
+    </body>
+</html>
