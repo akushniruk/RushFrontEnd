@@ -13,6 +13,9 @@ body {
 
 .for_first {
     margin-top: 100px;
+    padding-right: 90px;
+    font-weight: 530;
+    font-size: 25px;
 }
 h3 {
     text-align: center;
@@ -95,16 +98,15 @@ ul a{
 
 
 #email {
-    margin-left: 450px;
+    margin-left: 630px;
     text-align: center;
     width: 250px;
-    height: 15px;
+    height: 20px;
 }
 
 .btn {
     padding-left:200px;
     border: none;
-    margin-top: 15px;
     padding: 0 20px;
     height: 30px;
     font-size: 1em;
@@ -184,5 +186,29 @@ ul a{
 }
 
 .for_submit {
-    margin-left: 500px;
+    margin-left: 660px;
+    width: 200px;
+    margin-right: 530px;
 }
+footer {
+    display: flex;
+    text-align: right;
+    padding-bottom: 5px;
+    flex-direction: column;
+    background-color: #dddddd;
+    border-radius: 3px;
+}
+
+.bottom {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.for_li {
+    padding: 0 20px;
+}
+.class {
+    margin-top:0px;
+    color: #444;
+}	
