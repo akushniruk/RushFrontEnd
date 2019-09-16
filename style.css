@@ -1,0 +1,97 @@
+html {
+    background-color: #a9d7d1;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+main {
+    background-color: white;
+    display: block;
+    padding: 20px 5px 15px 5px;
+    margin-left: 22%;
+    margin-right: 22%;
+    border-radius: 3px;
+}
+
+input {
+    padding: 2px;
+}
+
+[type="text"], [type="number"]{
+    width: 280px;
+    height: 25px;
+}
+
+select {
+    height: 35px;
+    width: 150px;
+    background-color: #dddddd;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin-top: 18px;
+    margin-left: -42px;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 280px;
+    resize: vertical;
+    margin-top: 18px;
+}
+
+.butt {
+    text-align: center;
+}
+
+.submit {
+    border: 0;
+    color: white;
+    width: 92px;
+    height: 40px;
+    background-color: #59ace0;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.row {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.left {
+    width: 45%;
+    padding: 5px;
+    display: inline-block;
+    text-align: right;
+}
+
+.right {
+    margin-left: 10px;
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.p_title {
+    text-align: center;
+}
+
