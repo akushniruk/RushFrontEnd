@@ -1,0 +1,5 @@
+@import 'menu.css';
+@import 'doc.css';
+body {
+    width: 1400px;
+}

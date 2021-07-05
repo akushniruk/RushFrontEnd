@@ -1,0 +1,25 @@
+main {
+    margin-left: 350px;
+    display: block;
+    width: 1300px;
+}
+
+h2 {
+    font-family: initial;
+}
+.text{
+    margin-left: 15px;
+}
+p{
+    padding: 5px;
+    line-height: 20px;
+}
+main li{
+    margin: 10px;
+}
+
+.code{
+    border-radius: 10px;
+    background-color: #F9F9F9;
+    padding: 10px;
+}
